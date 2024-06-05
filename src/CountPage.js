@@ -5,6 +5,8 @@ function CountPage() {
     
     const countUpHandler = () => {
         console.log("Click!")
+        // Count Up
+        setCount(count + 1)
     }
 
     return (
