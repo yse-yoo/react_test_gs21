@@ -8,11 +8,12 @@ function App() {
     age: 48,
     country: "Japan",
   }
+
   return (
     <div className="App">
       <header className="App-header">
         <h2>Hello My Page</h2>
-        <Message />
+        <Message user={user} />
       </header>
     </div>
   );
