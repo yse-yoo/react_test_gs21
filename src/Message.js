@@ -6,6 +6,9 @@ function Message(props) {
         <div>
             こんにちは！
             <span>{user.name}</span>
+            <p>
+                年齢は<span>{user.age}</span>です。
+            </p>
         </div>
     )
 }
