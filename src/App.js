@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Message from './Message'
 import CountPage from './CountPage'
+import Information from './Information';
 
 function App() {
   var user = {
@@ -16,6 +17,7 @@ function App() {
         <h2>Hello My Page</h2>
         <Message user={user} />
         <CountPage />
+        <Information />
       </header>
     </div>
   );
