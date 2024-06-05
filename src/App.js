@@ -3,6 +3,11 @@ import './App.css';
 import Message from './Message'
 
 function App() {
+  var user = {
+    name: "Yohei Yoshikawa",
+    age: 48,
+    country: "Japan",
+  }
   return (
     <div className="App">
       <header className="App-header">
